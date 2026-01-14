@@ -43,6 +43,7 @@ public class PricingService {
 
             formulaMap.put(formula.getCode(), engine.calculate(request.getPricingDate(), formula, ctx));
         }
+
         return formulaMap;
     }
 
