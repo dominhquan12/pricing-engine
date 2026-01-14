@@ -1,0 +1,7 @@
+curl --location 'http://localhost:8080/api/pricing/calculate-db' \
+--header 'Content-Type: application/json' \
+--data '{
+    "usage": 10000000,
+    "feedIn": 1000,
+    "pricingDate": "2027-01-06"
+}'
